@@ -1,6 +1,8 @@
-# Arch-Silence theme for GRUB2
+# Archi3-Silence theme for GRUB2
 #
 # Copyright (C) 2015 Filippo Ghibellini
+# Copyright (C) 2025 Sándor Kakuk
+
 
 #general settings
 title-text: ""
