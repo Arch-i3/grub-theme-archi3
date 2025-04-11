@@ -3,8 +3,9 @@
 
 _pkgname=arch-silence-grub-theme
 pkgname=arch-silence-grub-theme-git
-_gitname="arch-silence"
-pkgver=r7.cd4bba1
+#_gitname="arch-silence"
+_gitname="grub-theme-archi3"
+pkgver=r24.d9688ab
 pkgrel=1
 pkgdesc="Arch Silence - GRUB2 theme - GIT version"
 arch=('any')
@@ -13,7 +14,7 @@ depends=()
 optdepends=()
 install="${pkgname}.install"
 url="https://github.com/Arch-i3/grub-theme-archi3"
-source=('git+https://github.com/Arch-i3/grub-theme-archi3.git.git')
+source=('git+https://github.com/Arch-i3/grub-theme-archi3')
 makedepends=('git')
 sha512sums=('SKIP')
 conflicts=("$_pkgname")
