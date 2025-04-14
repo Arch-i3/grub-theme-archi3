@@ -1,5 +1,5 @@
 
-# Archi3-Silence GRUB2 theme
+# Archi3 GRUB2 theme
 
 My flat GRUB2 theme.
 
