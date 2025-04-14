@@ -1,13 +1,14 @@
 # Contributor: Felix Golatofski
 # Contributor: Mark Tompkins
+# Contributor: Sándor Kakuk
 
-_pkgname=arch-silence-grub-theme
-pkgname=arch-silence-grub-theme-git
-#_gitname="arch-silence"
+_pkgname=grub-theme-archi3
+pkgname=grub-theme-archi3
+#_gitname="grub-theme-archi3"
 _gitname="grub-theme-archi3"
-pkgver=r24.d9688ab
+pkgver=r25.f5ec404
 pkgrel=1
-pkgdesc="Arch Silence - GRUB2 theme - GIT version"
+pkgdesc="Archi3 - GRUB2 theme - GIT version"
 arch=('any')
 license=('GPL')
 depends=()
