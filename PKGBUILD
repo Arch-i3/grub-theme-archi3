@@ -3,7 +3,7 @@
 # Contributor: Sándor Kakuk
 
 _pkgname=grub-theme-archi3
-pkgname=grub-theme-archi3
+pkgname=grub-theme-archi3-git
 _gitname="archi3"
 pkgver=1.0
 pkgrel=1
