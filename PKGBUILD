@@ -4,7 +4,7 @@
 
 _pkgname=grub-theme-archi3
 pkgname=grub-theme-archi3
-_gitname="grub-theme-archi3"
+_gitname="archi3"
 pkgver=1.0
 pkgrel=1
 pkgdesc="Archi3 - GRUB2 theme - GIT version"
