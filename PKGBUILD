@@ -5,6 +5,7 @@
 _pkgname=grub-theme-archi3
 pkgname=grub-theme-archi3-git
 _gitname="archi3"
+gitname="grub-theme-archi3"
 pkgver=1.0
 pkgrel=1
 pkgdesc="Archi3 - GRUB2 theme - GIT version"
@@ -21,11 +22,11 @@ conflicts=("$_pkgname")
 provides=("$_pkgname=$pkgver")
 
 pkgver() {
-  cd ${srcdir}/${_gitname}
+  cd ${srcdir}/${gitname}
   printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
 package() {
   mkdir -p "${pkgdir}/boot/grub/themes/${_gitname}"
-  cp -TR "${srcdir}/${_gitname}/theme" "${pkgdir}/boot/grub/themes/${_gitname}"
+  cp -TR "${srcdir}/${gitname}/theme" "${pkgdir}/boot/grub/themes/${_gitname}"
 }
