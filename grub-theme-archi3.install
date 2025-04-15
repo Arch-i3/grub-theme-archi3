@@ -1,6 +1,6 @@
 post_install() {
-  echo '==> To select the archi3 theme you must:'
-  echo '==>  1. Open the file "/etc/default/grub" and inside it update the variable GRUB_THEME="/boot/grub/themes/grub-theme-archi3/theme.txt"'
+  echo '==> To select the Archi3 theme you must:'
+  echo '==>  1. Open the file "/etc/default/grub" and inside it update the variable GRUB_THEME="/boot/grub/themes/archi3/theme.txt"'
   echo '==>  2. Update the grub config by running "sudo grub-mkconfig -o /boot/grub/grub.cfg"'
 }
 
