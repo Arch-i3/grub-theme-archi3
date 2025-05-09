@@ -31,8 +31,10 @@ terminal-border: "0"
 
 # arch logo
 + image {
-	top = 50%-200
-	left = 50%-75
+#	top = 50%-200
+	top = 80%
+#	left = 50%-75
+	left = 50%-150
     file = "Archi3-logo-light.png"
 }
 
